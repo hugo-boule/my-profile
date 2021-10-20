@@ -1,0 +1,103 @@
+body{
+  background : rgb(220, 220, 230);
+  font-family: Roboto, monospace;
+  color: #22577A;
+  font-size: 16px;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: lora,monospace;
+}
+h1{
+   color : #38A3A5;
+  font-family: Roboto, monospace;
+  font-size: 32px;
+  line-height: 1.6;
+  letter-spacing: 10px;
+  font-weight: 900;
+}
+h2{
+  color :#57CC99;
+  font-size: 24px;
+  font-weight: 300;
+}
+a{ font-family: roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;}
+
+
+#photo{
+  border-radius: 50%; 
+  rgba(0,10,30,.1)}
+div{
+width: 700px auto;
+margin: 40px auto;
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 8px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,10,30,.1);    /* Light shadow */
+text-align: center;}
+
+.card:hover {
+  box-shadow: rgba(0, 10, 30, 1);}
+
+.btn-green{
+  background: #57CC99;
+  padding: 15px 20px;
+  color: white
+  text-decoration-color: white;
+  border-radius: 5px;
+  margin:40px;}
+
+.btn-green:hover{background: black;
+  color : white;}
+
+  .container{
+    width: 1000px auto;
+    background: ghostwhite;
+    margin: 40px;}
+
+  .list-horizontal-inlign {
+    list-style: none;
+    padding-left: 10px
+
+  }
+  .list-horizontal-inlign li{
+    display: inline;
+    padding:0px 20px;
+  }
+  .list-horizontal-inlign i {
+    color: rgb(200,200,200);
+    font-size:50px;
+  }
+
+  .list-horizontal-inlign:hover i {
+    color:black;
+  }
+
+#intro p {
+  margin-bottom : 40px;
+}
+
+@media (max-width: 760px) {
+  .container {width: 600px}
+}
+
+@media (max-width: 500px) {
+  .container {width: 420px}
+}
+
+@media (max-width: 900px) {
+  .container {width: 750px}
+}
+
+
+
+
+
+
+
+
+
